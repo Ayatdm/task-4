@@ -1,0 +1,181 @@
+html
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aya task 4</title>
+    <link rel="stylesheet" href="task4.css">
+</head>
+
+<body style="background-color: rgb(243 243 243)">
+     <!-- <div class="img"><img src ="C:\Users\ayaht\Pictures\Screenshots\Screenshot 2024-08-18 185948.png" alt="logo"></div> -->
+    <div class="navbar">
+       <div class="logo">
+        <img src ="C:\Users\ayaht\Pictures\Screenshots\Screenshot 2024-08-18 164206.png" alt="logo">
+       </div>
+           <div class ="all-nav">
+            <a href="#" style="
+            color: steelblue;"> Any.do</a>
+          
+            <a href="#">Premium</a>
+            <a href="#">Teams</a>
+            <a href="#">Blog</a>
+           </div>
+          <div class=" nav-right">
+            <a href="#" class="login-btn">login</a>
+            <div class="lang">
+                <img src="C:\Users\ayaht\Pictures\Screenshots\Screenshot 2024-08-18 165020.png" alt="LN">
+            </div>
+          </div>
+    </div>
+     <div class="container">
+        <img src="C:\Users\ayaht\Pictures\Screenshots\Screenshot 2024-08-18 204623.png" alt="">
+        <h1>Your busy life deserves this.</h1>
+        
+        <p style="font-family: system-ui; margin-top: -40px;">Any.do is an award-winning app used by millions of people to stay organized and get more done.</p>
+        
+        <a href="#" class="watch-button">Watch in action</a>
+        <button class="get-started">Get Started - It's Free!</button>
+        <div class ="footer">
+            <p>This website uses cookies to ensure you get the best experience on our website. <a href="#">Learn more</a></p>
+            <a href="#" class="go">Got it</a>
+        </div>
+     </div>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  css
+
+.navbar {
+    position: relative;
+    background-color: white;
+    padding: 6px 20px;
+    overflow: hidden;
+    margin-top: -0.4%;
+    box-shadow: 3px 19px 75px 7px rgb(177 177 177 / 43%);
+}
+
+.logo {
+    float: left;
+    margin-left: 100px;
+}
+
+.all-nav {
+    float: left;
+    margin-left: 20px;
+   text-decoration: none;
+}
+.nav-right {
+    float: right;
+}
+
+
+.all-nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    line-height: 40px;;
+}
+.nav-right a.login-btn{
+    text-decoration: none;
+    color: #3dafd5; 
+    font-size: 20px;
+    padding: 1px 40px;
+    border: 2px solid #82c7df;; 
+    border-radius: 25px; 
+    line-height: 30px;
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.lang{
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+.body{
+    background-color: rgba(165, 30, 30, 0.936);
+    position: relative;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.container {
+    max-width: 70%;;
+    margin: 0 auto;
+    padding: 20px;
+    display: block;
+    position: relative;
+}
+
+ .get-started {
+    background-color: #3f9bde;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: -3px 8px 30px 4px rgba(0, 0, 0, 0.33);
+    /* cursor: pointer; */
+}
+.container h1{
+    font-size: 400%;
+    font-weight: 800;
+    font-weight: bolder;
+    margin-top: 12%;
+    font-family: system-ui;
+    
+}
+.container img{
+    float: right;
+    margin-right: 20%;
+    margin-right: 20%;
+    padding-top: 3%;
+
+}
+.container p{
+    font-size: large;
+}
+.footer{
+   position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff; 
+  padding: 10px
+}
+.footer a.go{
+     
+    margin-top: -2.5%;
+    float: right;
+    margin-right: 3%;
+    color: darkturquoise;
+    font-size: larger;
+}
+
+.container a.watch-button{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: -1%;
+    font-size: larger;
+    color: #0680fc;
+    text-decoration: none;
+}
+    
+
+
